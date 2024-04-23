@@ -44,7 +44,7 @@ DATABASES = {
         "NAME": CONNECTION_STR['dbname'],
         "HOST": CONNECTION_STR['host'],
         "USER": CONNECTION_STR['user'],
-        "PASSWORD": DB_PASS,
+        "PASSWORD": '1DFg$RN$LUnSulPm',
     }
 }
 
