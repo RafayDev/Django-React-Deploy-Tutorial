@@ -36,6 +36,8 @@ STORAGES = {
 CONNECTION = os.environ['AZURE_POSTGRESQL_CONNECTIONSTRING']
 CONNECTION_STR = {pair.split('=')[0]:pair.split('=')[1] for pair in CONNECTION.split(' ')}
 DB_PASS = os.environ['DB_PASS']
+print(CONNECTION_STR)
+print(DB_PASS)
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
